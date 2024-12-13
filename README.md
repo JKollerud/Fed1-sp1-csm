@@ -22,15 +22,25 @@ Using the template provided, write a report discussing what went well and what d
 
 User Stories
 As a developer, I want to plan the project using a project planning tool and keep it updated throughout the development process.
+
 As a visitor, I want the website to appeal to children so they feel encouraged to visit the museum with their families.
+
 As a user, I want to browse through the deployed site without any issues.
+
 As a visitor, I want the website to adapt seamlessly to any device so it is easy to interact with on mobile, tablet, or desktop.
+
 As a visitor, I want at least 4-6 pages with clear navigation.
+
 As a visitor, I want the site to load quickly, even on slow connections, so I can easily access it.
+
 As a user with disabilities, I want the website to follow accessibility guidelines so I can navigate independently.
+
 As the site owner, I want good SEO to rank higher in search engines and attract more visitors.
+
 As a developer, I want the GitHub repository public to allow for collaboration and code review.
+
 Submission Guidelines
+
 The following must be added to your PDF report (use the template provided) and submitted on moodle
 
 A live version link of the site
