@@ -1,6 +1,6 @@
 /* Explore */
 .explore-header h1 {
-	background-color: var(--darkprim-green);
+	background-color: var(--darkprim-green) !important;
 }
 
 .explore-box h2 {

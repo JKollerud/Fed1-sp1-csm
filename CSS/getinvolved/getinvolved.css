@@ -10,7 +10,7 @@
 }
 
 .get-involved-header h1 {
-	background-color: var(--darkprim-yellow);
+	background-color: var(--darkprim-yellow) !important;
 }
 
 .get-involved-box p {
