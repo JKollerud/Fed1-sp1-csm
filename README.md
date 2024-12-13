@@ -34,6 +34,9 @@ Submission Guidelines
 The following must be added to your PDF report (use the template provided) and submitted on moodle
 
 A live version link of the site
+
 A link to the site’s prototype
+
 A link to the project planning board and GitHub repository.
+
 Note: Resources and templates are provided under the project resources folder.
