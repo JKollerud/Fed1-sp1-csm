@@ -8,6 +8,10 @@
 	color: var(--white);
 }
 
+.footer a {
+	color: var(--white);
+}
+
 .footer > div {
 	width: 100%;
 	margin-bottom: 20px;

@@ -1,3 +1,5 @@
+@import url(../styles.css);
+
 /* Hamburger */
 #menuToggle {
 	display: block;
@@ -51,13 +53,16 @@
 	padding: 7px 0;
 	font-size: 8px;
 	margin-left: -20px;
-	color: var(--black);
 	font-size: 20px;
 	font-family: roboto, sans-serif;
 }
 
 #menu li:hover {
 	color: var(--lightprim-red);
+}
+
+#menu a {
+	color: var(--black);
 }
 
 .contact-margin-menu {
@@ -89,6 +94,10 @@
 }
 
 /* Active navbar buttons */
-.navbar-active a.active {
+#menu a.active {
 	color: var(--primary-red);
+}
+
+#menu a:hover {
+	color: var(--lightprim-red);
 }

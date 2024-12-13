@@ -77,6 +77,10 @@ p {
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+.button-standard a {
+	color: var(--white);
+}
+
 .button-standard button:hover {
 	background-color: var(--darksecon-blue);
 	transform: scale(1.05);
