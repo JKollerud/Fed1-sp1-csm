@@ -1,0 +1,18 @@
+/* Tickets and Prices */
+.tickets-container h2 {
+	font-family: roboto, sans-serif;
+}
+
+.tickets-container {
+	margin: 30px 40px;
+	margin-bottom: 75px;
+}
+
+.tickets-container img {
+	width: 100%;
+	margin-top: 25px;
+}
+
+.tickets-container p {
+	line-height: 2;
+}

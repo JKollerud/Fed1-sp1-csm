@@ -1,0 +1,218 @@
+@import url(/CSS/news/news.css);
+@import url(/CSS/openinghours/openinghours.css);
+@import url(/CSS/tickets/prices.css);
+@import url(/CSS/navbar/navbar.css);
+@import url(/CSS/contact/contact.css);
+@import url(/CSS/visit-us/visit-us.css);
+@import url(/CSS/getinvolved/getinvolved.css);
+@import url(/CSS/explore/explore.css);
+@import url(/CSS/exhibitions/exhibitions.css);
+@import url(/CSS/footer/footer.css);
+@import url(/CSS/mediaqueries/mediaqueries.css);
+
+:root {
+	--primary-blue: #1d8ff2;
+	--lightprim-blue: #73b4ed;
+	--darkprim-blue: #125792;
+	--primary-red: #f23535;
+	--lightprim-red: #ed7d7d;
+	--darkprim-red: #861d1d;
+	--primary-yellow: #f2e422;
+	--lightprim-yellow: #efe66c;
+	--darkprim-yellow: #807812;
+	--primary-green: #44f25e;
+	--lightprim-green: #8ff19d;
+	--darkprim-green: #278134;
+	--secondary-blue: #18568c;
+	--lightsecon-blue: #517595;
+	--darksecon-blue: #0e3150;
+	--white: #f9f9f9;
+	--black: #000000;
+	--darkgrey: #232323;
+	--grey: #6f6f6f;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+	color: var(--white);
+}
+
+p {
+	font-family: roboto, sans-serif;
+}
+
+/* header font for website */
+.zendots {
+	font-family: Zen dots;
+	font-size: 90px;
+}
+
+.zen-dots-regular {
+	font-family: "Zen Dots", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+/* Standard button for website */
+.button-standard button {
+	background-color: var(--darkprim-blue);
+	color: var(--white);
+	font-size: 18px;
+	font-weight: bold;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: all 0.3 ease;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button-standard button:hover {
+	background-color: var(--darksecon-blue);
+	transform: scale(1.05);
+}
+
+.button-standard button:active {
+	transform: scale(0.95);
+}
+
+/* Front page img and h1 */
+.front-page-imgheader-container {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.front-page-imgheader-container img {
+	width: 100%;
+}
+
+.front-page-imgheader-container h1 {
+	background-color: var(--darkprim-blue);
+	color: var(--white);
+	font-family: Zen dots, sans-serif;
+	text-align: center;
+	position: absolute;
+	bottom: -42px;
+	width: 100%;
+	padding: 15px 0;
+}
+
+/* First element homepage */
+.links-homepage {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+	font-family: roboto, sans-serif;
+}
+
+.links-homepage img {
+	height: 136.719px;
+	max-width: 100%;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+
+.links-homepage-buttons {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	margin: 0px 10px;
+}
+
+.links-button {
+	margin: 5px;
+}
+
+.links-button a {
+	margin: 0px 15px;
+}
+
+.links-button button {
+	background-color: var(--darkprim-red);
+}
+
+@media (min-width: 366px) and (max-width: 465px) {
+	.links-homepage img {
+		margin-right: 10px;
+	}
+
+	.links-button a {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 365px) {
+	.links-homepage {
+		flex-direction: column;
+		margin: 10px 25px;
+		margin-top: 25px;
+	}
+
+	.links-homepage img {
+		margin-left: 10px;
+		margin-right: 10px;
+		height: auto;
+	}
+
+	.links-button a {
+		font-size: 15px;
+	}
+
+	.links-homepage-buttons {
+		margin: 0;
+	}
+}
+
+/* Second element front page exhibition elements */
+.front-page-explore-containers {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.front-page-explore-containers > div {
+	position: relative;
+	width: 100%;
+}
+
+.front-page-explore-containers img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.front-page-explore-containers h2 {
+	color: var(--white);
+	font-family: Zen dots, sans-serif;
+	text-align: center;
+	width: 100%;
+	padding: 15px 0;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+}
+
+.exhibitions-h2 {
+	background-color: var(--darkprim-red);
+}
+
+.explore-h2 {
+	background-color: var(--darkprim-green);
+}
+
+.getinvolved-h2 {
+	background-color: var(--darkprim-yellow);
+}

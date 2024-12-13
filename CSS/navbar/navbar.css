@@ -1,0 +1,94 @@
+/* Hamburger */
+#menuToggle {
+	display: block;
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	z-index: 6;
+}
+
+#menuToggle input {
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	opacity: 0;
+	z-index: 4;
+	cursor: pointer;
+}
+
+#menuToggle i {
+	position: relative;
+	padding-top: 10px;
+	z-index: 3;
+	color: var(--white);
+	font-size: 30px;
+	background-color: var(--lightsecon-blue);
+	width: 50px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	border-radius: 50px;
+}
+
+#menu {
+	position: fixed;
+	z-index: 2;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 42vh;
+	padding-top: 75px;
+	background: var(--white);
+	list-style-type: none;
+	transform: translate(100%, 0);
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+	padding: 7px 0;
+	font-size: 8px;
+	margin-left: -20px;
+	color: var(--black);
+	font-size: 20px;
+	font-family: roboto, sans-serif;
+}
+
+#menu li:hover {
+	color: var(--lightprim-red);
+}
+
+.contact-margin-menu {
+	margin-bottom: 20px;
+}
+
+.header-nav ul {
+	margin-top: auto;
+}
+
+#menuToggle input:checked ~ ul {
+	transform: none;
+}
+
+/* Navbar display fix */
+#normal-nav {
+	display: none;
+}
+
+/* Header */
+.logo-corner-home {
+	max-width: 50px;
+	top: 10px;
+	left: 10px;
+	position: fixed;
+	z-index: 7;
+	background-color: var(--white);
+	border-radius: 50px;
+}
+
+/* Active navbar buttons */
+.navbar-active a.active {
+	color: var(--primary-red);
+}

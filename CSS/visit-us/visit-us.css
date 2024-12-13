@@ -1,0 +1,26 @@
+/* Visit Us page */
+.map-visitus-box {
+	text-align: left;
+	margin-bottom: 25px;
+}
+
+.visit-us-container {
+	display: flex;
+	flex-direction: column;
+	margin: 25px;
+	line-height: 1.3;
+}
+
+.visit-us-container li {
+	font-family: roboto, sans-serif;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.visit-us-container img {
+	width: 100%;
+}
+
+.visit-us-container h2 {
+	font-family: roboto, sans-serif;
+}

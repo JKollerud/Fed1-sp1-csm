@@ -1,0 +1,109 @@
+/* Media queries */
+.tablet-image-frontpage {
+	display: none;
+}
+
+@media screen and (min-width: 550px) {
+	/* Homepage picture */
+	.tablet-image-frontpage {
+		display: block;
+		min-height: auto;
+	}
+
+	.phone-image-frontpage {
+		display: none;
+	}
+
+	/* Logo top left corner */
+	.logo-corner-home {
+		max-width: 75px;
+	}
+
+	/* Hamburger menu items alittle bit lower */
+	#menu li {
+		margin-top: 20px;
+	}
+
+	#menu {
+		height: 65vh;
+	}
+
+	/* navbar */
+	#normal-nav {
+		display: none;
+	}
+
+	/* buttons homepage */
+	.links-homepage-buttons a {
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 945px) {
+	/* navbar */
+	.header-nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100px;
+		background-color: var(--secondary-blue);
+	}
+
+	#menuToggle {
+		display: none;
+	}
+
+	#normal-nav {
+		text-decoration: none;
+		list-style: none;
+		margin: 0;
+		padding: 20px;
+		display: flex;
+		flex-direction: row;
+		background-color: #0e3150;
+		gap: 20px;
+		font-family: Roboto, sans-serif;
+		border-radius: 30px;
+	}
+
+	nav {
+		margin-left: auto;
+		margin-right: 25px;
+	}
+
+	#normal-nav a:hover {
+		color: var(--darkprim-red);
+	}
+
+	.logo-corner-home {
+		margin-left: 25px;
+		margin-right: 5px;
+	}
+
+	.front-page-imgheader-container h1 {
+		font-size: 40px;
+		bottom: -34px;
+	}
+
+	.tablet-image-frontpage {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	/* width on content for desktop */
+	main {
+		width: 100%;
+		max-width: 1200px;
+	}
+
+	.front-page-imgheader-container h1 {
+		font-size: 50px;
+		bottom: -45px;
+	}
+
+	/* visit us */
+	.visit-us-container img {
+		width: 400px;
+	}
+}

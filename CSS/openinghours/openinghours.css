@@ -1,0 +1,34 @@
+/* Opening Hours */
+.opening-days-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.opening-day {
+	display: flex;
+	border-bottom: 1px solid var(--darkgrey);
+}
+
+.opening-day h2 {
+	font-family: roboto, sans-serif;
+	text-align: left;
+	flex: 1;
+	margin-left: 50px;
+}
+
+.opening-day p {
+	text-align: right;
+	flex: 1;
+	margin-right: 50px;
+}
+
+.last-colum-openinghours {
+	margin: 40px;
+	text-align: center;
+}
+
+.opening-days-container img {
+	margin: 25px;
+}
