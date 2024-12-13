@@ -1,14 +1,14 @@
-@import url(/CSS/news/news.css);
-@import url(/CSS/openinghours/openinghours.css);
-@import url(/CSS/tickets/prices.css);
-@import url(/CSS/navbar/navbar.css);
-@import url(/CSS/contact/contact.css);
-@import url(/CSS/visit-us/visit-us.css);
-@import url(/CSS/getinvolved/getinvolved.css);
-@import url(/CSS/explore/explore.css);
-@import url(/CSS/exhibitions/exhibitions.css);
-@import url(/CSS/footer/footer.css);
-@import url(/CSS/mediaqueries/mediaqueries.css);
+@import url(../CSS/news/news.css);
+@import url(../CSS/openinghours/openinghours.css);
+@import url(../CSS/tickets/prices.css);
+@import url(../CSS/navbar/navbar.css);
+@import url(../CSS/contact/contact.css);
+@import url(../CSS/visit-us/visit-us.css);
+@import url(../CSS/getinvolved/getinvolved.css);
+@import url(../CSS/explore/explore.css);
+@import url(../CSS/exhibitions/exhibitions.css);
+@import url(../CSS/footer/footer.css);
+@import url(../CSS/mediaqueries/mediaqueries.css);
 
 :root {
 	--primary-blue: #1d8ff2;
