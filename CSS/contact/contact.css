@@ -85,3 +85,8 @@
 .contact-info-box a {
 	color: var(--black);
 }
+
+.contact-button:hover {
+	background-color: var(--lightsecon-blue);
+	transform: scale(1.05);
+}
