@@ -39,3 +39,7 @@
 	filter: brightness(0.9);
 	opacity: 0.8;
 }
+
+.news-button {
+	margin-top: 25px;
+}
