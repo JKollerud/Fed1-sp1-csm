@@ -56,10 +56,6 @@
 	font-family: roboto, sans-serif;
 }
 
-#menu li:hover {
-	color: var(--lightprim-red);
-}
-
 #menu a {
 	color: var(--black);
 }
@@ -98,5 +94,5 @@
 }
 
 #menu a:hover {
-	color: var(--lightprim-red);
+	color: #18568c;
 }
