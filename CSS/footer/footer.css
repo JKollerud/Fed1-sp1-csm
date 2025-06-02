@@ -74,10 +74,17 @@ p.footer_header {
 	cursor: pointer;
 }
 
-.footer i:hover {
+.footer i:hover,
+.some_links p:hover {
 	color: var(--darkprim-blue);
 }
 
 .hovering-footer-items p:hover {
 	color: var(--lightprim-red);
+}
+
+.some_links {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
 }
