@@ -19,15 +19,15 @@
 	text-align: center;
 }
 
-.footer h3 {
-	font-size: 20px;
-	margin-top: 50px;
-	font-family: roboto, sans-serif;
-}
-
 .footer p {
 	margin: 5px 0;
 	font-size: 14px;
+}
+
+p.footer_header {
+	font-size: 25px;
+	margin-top: 50px;
+	font-family: roboto, sans-serif;
 }
 
 .newsletter-form {

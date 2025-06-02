@@ -11,23 +11,28 @@
 	background-color: var(--darkprim-red) !important;
 }
 
-.exhibitons-1-box h1 {
+.exhibitons-1-box h2,
+.cosmo_color h1 {
 	background-color: var(--darkprim-yellow) !important;
 }
 
-.exhibitons-2-box h1 {
+.exhibitons-2-box h2,
+.evo_color h1 {
 	background-color: var(--primary-blue) !important;
 }
 
-.exhibitons-3-box h1 {
+.exhibitons-3-box h2,
+.bio_med_color h1 {
 	background-color: var(--darkprim-green) !important;
 }
 
-.exhibitons-4-box h1 {
+.exhibitons-4-box h2,
+.robo_color h1 {
 	background-color: var(--darkprim-red) !important;
 }
 
-.exhibitons-5-box h1 {
+.exhibitons-5-box h2,
+.eco_color h1 {
 	background-color: var(--darksecon-blue) !important;
 }
 
@@ -43,4 +48,11 @@
 .exhibition-button {
 	text-align: center;
 	margin: 40px 0px;
+}
+
+.ingress_header {
+	font-family: roboto, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	font-weight: 700;
 }

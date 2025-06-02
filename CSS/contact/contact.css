@@ -32,6 +32,10 @@
 	max-width: 800px;
 }
 
+.contact-form p {
+	color: #fff;
+}
+
 .contact-form h2 {
 	margin-top: 0;
 	color: var(--white);
