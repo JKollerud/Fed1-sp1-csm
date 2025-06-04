@@ -1,61 +1,19 @@
-The Brief
+# Semester Project 1
 
-An interactive science museum called the Community Science Museum is opening in your town/city. 
+Community Science Museum - Interactive Educational Website
 
-Its core target audience is primary and middle school children (ages 7-15) and families with young children.
+## Welcome to the Community Science Museum website — an engaging, educational, and family-friendly platform designed to spark curiosity in science for children aged 7–15 and their families. This site showcases what the museum has to offer, with the goal of informing and encouraging in-person visits. Built using HTML and CSS.
 
-The website should be informative and engaging, encouraging viewers to visit the museum. 
+Live Demo Netlify:
+https://communitysciencem.netlify.app
 
-It should also be responsive and easy to use on various devices. Peer/Teacher review is recommended.
+Features:
+- Interactive and informative sections about science and exhibitions.
+- Mobile-first responsive design.
+- Age-appropriate content targeted at children and families.
+- Engaging call-to-action sections to encourage museum visits.
+- Clean, accessible layout and structure.
 
-You have been provided with media assets such as text and images (see link under Resources). 
+Figma Design Assets:
 
-You must decide how these will be used in terms of presentation, hierarchy, and design. 
-
-If any assets are too large, remember to optimize file sizes to ensure smooth loading and a polished user experience.
-
-You have the choice to work on this individually or as part of a team of two.
-
-Requirements
-Plan the project using a project planning board
-The site must have a design that appeals to the target audience.
-The site must have at least 4-6 pages.
-Compositional principles, typography, and colour schemes must be considered.
-HTML should be semantic and neatly indented.
-External CSS stylesheets should follow the DRY principle.
-The site should load quickly, with image sizes capped at 200kb.
-WCAG principles must be applied to hierarchy, navigation, and colour usage.
-The site must be responsive, attractive, and user-friendly across devices.
-SEO practices such as meta tags and alt text must be implemented.
-Using the template provided, write a report discussing what went well and what did not go well in the development process.
-
-User Stories
-As a developer, I want to plan the project using a project planning tool and keep it updated throughout the development process.
-
-As a visitor, I want the website to appeal to children so they feel encouraged to visit the museum with their families.
-
-As a user, I want to browse through the deployed site without any issues.
-
-As a visitor, I want the website to adapt seamlessly to any device so it is easy to interact with on mobile, tablet, or desktop.
-
-As a visitor, I want at least 4-6 pages with clear navigation.
-
-As a visitor, I want the site to load quickly, even on slow connections, so I can easily access it.
-
-As a user with disabilities, I want the website to follow accessibility guidelines so I can navigate independently.
-
-As the site owner, I want good SEO to rank higher in search engines and attract more visitors.
-
-As a developer, I want the GitHub repository public to allow for collaboration and code review.
-
-Submission Guidelines
-
-The following must be added to your PDF report (use the template provided) and submitted on moodle
-
-A live version link of the site
-
-A link to the site’s prototype
-
-A link to the project planning board and GitHub repository.
-
-Note: Resources and templates are provided under the project resources folder.
+## https://www.figma.com/design/1WBcCAEC7LL56VIGzxsszU/Community-Science-Museum---SP1?node-id=0-1&t=sNtNPwt9iDeWbyK3-1
